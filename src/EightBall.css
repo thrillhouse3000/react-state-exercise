@@ -1,0 +1,34 @@
+.EightBall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.EightBall-ball {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.EightBall-text {
+    color: white;
+}
+
+.EightBall-reset {
+    margin-top: 30px;
+}
+
+.EightBall-colorCount {
+    margin-top: 30px;
+}
+
+.EightBall-colorCount span {
+    margin-right: 20px;
+}
